@@ -20,3 +20,9 @@ p.subtitle{
   display: flex ;
   align-items: flex-end;
 }
+
+.logo-sham{
+  background-color: #1A5761;
+  padding: .5rem;
+  width: 150px;
+}
