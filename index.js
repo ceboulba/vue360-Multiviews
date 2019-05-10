@@ -7,7 +7,8 @@ var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557511607/sham_milan/sham_milan_vue_01.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557511871/sham_milan/sham_milan_vue_02.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557512775/sham_milan/sham_milan_vue_03.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557514455/sham_milan/sham_milan_vue_04.jpg'
+  'https://res.cloudinary.com/archipicture/image/upload/v1557514455/sham_milan/sham_milan_vue_04.jpg',
+  "https://res.cloudinary.com/archipicture/image/upload/v1557519549/sham_milan/sham_milan_vue_05.jpg"
 ]
 let num = 0
 const btnPrev = document.getElementById('btnPrev').addEventListener('click',()=> prev())
