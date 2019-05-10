@@ -53,7 +53,7 @@ var createScene = function () {
 const scene = createScene()
 
 const next = () => {
-  event.preventDefault()
+  //event.preventDefault()
   num < imgs.length - 1 ?
     num++
     : num = 0
@@ -63,7 +63,7 @@ const next = () => {
 }
 
 const prev = () => {
-  event.preventDefault()
+  //event.preventDefault()
   num === 0 ?
     num = imgs.length - 1
     : num--
