@@ -15,21 +15,27 @@ const btnNext = document.getElementById('btnNext')
 let num = 0
 
 const next = () => {
-  num++;
+  event.preventDefault()
+   num < imgs.length - 1 ?
+   num++
+   : num = 0
   console.log('coucou next')
   console.log(num)
 }
 
 const prev = () => {
-  num--;
+  event.preventDefault()
+  num === 0 ?
+   num = imgs.length - 1
+    : num--
   console.log('coucou previous')
   console.log(num)
-}
+   }
 
 btnNext.onclick = function(){
   next()
 }
-btnPrev.onclick = function(){
+btnPrev.onclick = function(num){
   prev()
 }
 
