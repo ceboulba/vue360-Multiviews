@@ -5,7 +5,7 @@ const canvas = document.getElementById('renderCanvas')
 var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557511607/sham_milan/sham_milan_vue_01.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557511607/sham_milan/sham_milan_vue_02.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557472339/city.jpg'
+  'https://res.cloudinary.com/archipicture/image/upload/v1557512316/sham_milan/sham_milan_vue_03.jpg'
 ]
 
 let num = 0
