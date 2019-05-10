@@ -1,4 +1,5 @@
 'use strict'
+
 import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
@@ -11,8 +12,6 @@ var imgs = [
 let num = 0
 const btnPrev = document.getElementById('btnPrev').addEventListener('click',()=> prev())
 const btnNext = document.getElementById('btnNext').addEventListener('click',()=>next())
-
-
 
 var engine = new BABYLON.Engine(canvas, true)
 
