@@ -4,8 +4,8 @@ const canvas = document.getElementById('renderCanvas')
 var img = 'http://www.bandoltourisme.fr/fileadmin/Image-Tourisme/actualites/20190328_Bandol_360__.jpg'
 var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557355560/ca_pano.jpg',
-  'http://www.bandoltourisme.fr/fileadmin/Image-Tourisme/actualites/20190328_Bandol_360__.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557355560/ca_pano.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557472339/bandol.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557472339/city.jpg',
   "http://www.bandoltourisme.fr/fileadmin/Image-Tourisme/actualites/20190328_Bandol_360__.jpg"
 ]
  
