@@ -6,6 +6,7 @@ var imgs = [
   '00',
   '01',
   '02',
+  "03"
 ]
 
 const btnPrev = document.getElementById('btnPrev')
