@@ -10,15 +10,12 @@ var imgs = [
 ]
 
 let num = 0
-const btnPrev = document.getElementById('btnPrev')
-const btnNext = document.getElementById('btnNext')
-btnNext.onclick = () => {
-  next()
-}
-btnPrev.onclick = () => {
-  prev()
-}
+const btnPrev = document.getElementById('btnPrev').addEventListener('click',prev)
+const btnPrev = document.getElementById('btnNext').addEventListener('click',next)
 
+// const btnNext = document.getElementById('btnNext').onclick = () => {
+//   next()
+// }
 
 var engine = new BABYLON.Engine(canvas, true)
 
