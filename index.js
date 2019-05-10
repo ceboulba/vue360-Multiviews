@@ -1,14 +1,14 @@
 import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
-var img = 'https://res.cloudinary.com/archipicture/image/upload/v1557355560/ca_pano.jpg'
+var img = 'http://www.bandoltourisme.fr/fileadmin/Image-Tourisme/actualites/20190328_Bandol_360__.jpg'
 var imgs = [
-  '00',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557355560/ca_pano.jpg',
   '01',
   '02',
   "03"
 ]
-
+ 
 const btnPrev = document.getElementById('btnPrev')
 const btnNext = document.getElementById('btnNext')
 
