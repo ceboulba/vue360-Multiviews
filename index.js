@@ -10,8 +10,8 @@ var imgs = [
 ]
 
 let num = 0
-const btnPrev = document.getElementById('btnPrev').addEventListener('click',prev)
-const btnPrev = document.getElementById('btnNext').addEventListener('click',next)
+const btnPrev = document.getElementById('btnPrev').addEventListener('click',()=> prev())
+const btnPrev = document.getElementById('btnNext').addEventListener('click',()=>next())
 
 // const btnNext = document.getElementById('btnNext').onclick = () => {
 //   next()
