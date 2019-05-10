@@ -28,7 +28,7 @@ var createScene = function () {
     'Camera',
     -Math.PI / 2,
     Math.PI / 2,
-    0.5,
+    0,
     BABYLON.Vector3.Zero(),
     scene
   )
