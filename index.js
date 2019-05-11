@@ -85,16 +85,6 @@ const prev = () => {
   check()
 }
 
-const imgCanvas = () => {
-  canvas.getContext('2D')
-  const image = new Image(); 
-image.src = 'https://res.cloudinary.com/archipicture/image/upload/v1557582530/sham_milan/sham_milan_vue_axo.jpg';
-image.onload = function() {
-  // Cette fonction est appelée lorsque l'image a été chargée
-  ctx.drawImage(this,0,0); // this fait référence à l'objet courant (=image)
-};
-}
-
 engine.runRenderLoop(function () {
   scene.render()
 })
