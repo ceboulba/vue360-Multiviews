@@ -52,7 +52,7 @@ var createScene = function () {
 
 const scene = createScene()
 
-const check = () => {
+function check () {
   num === 0 ? () => {
     alert('num: ',num)
     canvas.classList.add('hide')
