@@ -3,7 +3,6 @@ import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
 const imgBox = document.getElementById('img-box')
-console.log(imgBox)
 var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557582530/sham_milan/sham_milan_vue_axo.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557571155/sham_milan/sham_milan_vue_04.jpg',
