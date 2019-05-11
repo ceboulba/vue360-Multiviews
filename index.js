@@ -54,12 +54,10 @@ const scene = createScene()
 
 const check = ()=>{
   num === 0 ?()=>{
-
-    canvas.classList.add('hide')
-    imgBox.classList.remove('hide')
-  }
-    
-    : im
+    canvas.classList.toggle('hide')
+    imgBox.classList.toggle('hide')
+  }    
+    : null
 }
 check()
 
