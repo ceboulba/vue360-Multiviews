@@ -92,7 +92,3 @@ engine.runRenderLoop(function () {
 window.addEventListener('resize', function () {
   engine.resize()
 })
-
-function essais() {
-  const ctx = canvas.getContext('2d')
-}
