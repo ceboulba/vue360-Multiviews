@@ -60,8 +60,8 @@ const next = () => {
     : num = 0
   console.log('num => ',num)
   num === 0 ?
-    canvas.classList.add('hide')
-      : imgBox.classList.add('hide')
+    canvas.classList.remove('hide')
+      : imgBox.classList.remove('hide')
   scene = createScene()
 }
 
