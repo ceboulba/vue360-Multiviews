@@ -56,6 +56,10 @@ const next = () => {
   //event.preventDefault()
   if(num === 0){
     canvas.classList.add('hide')
+    visible.classList.remove('hide')
+  }else{
+    canvas.classList.remove('hide')
+    visible.classList.add('hide')
   }
   num < imgs.length - 1 ?
     num++
