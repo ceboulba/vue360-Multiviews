@@ -6,7 +6,7 @@ const canvas = document.getElementById('renderCanvas')
 const imgBox = document.getElementById('img-box')
 console.log(imgBox)
 var imgs = [
-  'https://res.cloudinary.com/archipicture/image/upload/v1557577574/sham_milan/sham_milan_vue_axo.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557581658/sham_milan/sham_milan_vue_axo.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557571155/sham_milan/sham_milan_vue_04.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557571155/sham_milan/sham_milan_vue_06.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557571159/sham_milan/sham_milan_vue_01.jpg',
