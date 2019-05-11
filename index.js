@@ -63,6 +63,7 @@ const check = () => {
     })()
     scene.render()
 }
+
 check()
 
 const next = () => {
@@ -83,6 +84,7 @@ const prev = () => {
 }
 
 engine.runRenderLoop(function () {
+  check()
   scene.render()
 })
 
