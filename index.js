@@ -66,13 +66,9 @@ const check = () => {
 check()
 
 const next = () => {
-  console.log('num => ', num)
-  //event.preventDefault()  
   num < imgs.length - 1 ?
     num++
     : num = 0
-  console.log('num => ', num)
-
   scene = createScene()
   check()
 }
@@ -82,9 +78,8 @@ const prev = () => {
   num === 0 ?
     num = imgs.length - 1
     : num--
-  console.log('coucou previous')
-  console.log(num)
   scene = createScene()
+  check()
 }
 
 engine.runRenderLoop(function () {
