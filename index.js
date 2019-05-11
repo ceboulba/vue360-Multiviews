@@ -3,8 +3,8 @@
 import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
-const visible = document.getElementById('axo')
-console.log(visible)
+const imgBox = document.getElementById('img-box')
+console.log(imgBox)
 var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557559393/sham_milan/gradient.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557511607/sham_milan/sham_milan_vue_01.jpg',
@@ -53,11 +53,15 @@ var createScene = function () {
 const scene = createScene()
 
 const next = () => {
-  //event.preventDefault()
-  
+  console.log('num => ',num)
+  //event.preventDefault()  
   num < imgs.length - 1 ?
     num++
     : num = 0
+  console.log('num => ',num)
+  num === 0 ?
+    canvas.classList.add('hide')
+      : imgBox.classList.add('hide')
   scene = createScene()
 }
 
