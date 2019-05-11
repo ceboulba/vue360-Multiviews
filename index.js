@@ -66,7 +66,7 @@ const next = () => {
     num++
     : num = 0
   console.log('num => ',num)
-  num > 0 ?
+  num !== 0 ?
     canvas.classList.remove('hide')
       : imgBox.classList.add('hide')
 
