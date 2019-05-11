@@ -7,11 +7,12 @@ const imgBox = document.getElementById('img-box')
 console.log(imgBox)
 var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557559393/sham_milan/gradient.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557511607/sham_milan/sham_milan_vue_01.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557556968/sham_milan/sham_milan_vue_02.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557512775/sham_milan/sham_milan_vue_03.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557514455/sham_milan/sham_milan_vue_04.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557519549/sham_milan/sham_milan_vue_05.jpg'
+  'https://res.cloudinary.com/archipicture/image/upload/v1557571155/sham_milan/sham_milan_vue_04.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557571155/sham_milan/sham_milan_vue_06.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557571159/sham_milan/sham_milan_vue_01.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557571158/sham_milan/sham_milan_vue_05.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557571154/sham_milan/sham_milan_vue_03.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557571152/sham_milan/sham_milan_vue_02.jpg',
 ]
 let num = 0
 const btnPrev = document.getElementById('btnPrev').addEventListener('click', () => prev())
