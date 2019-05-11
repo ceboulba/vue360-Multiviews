@@ -52,6 +52,13 @@ var createScene = function () {
 
 const scene = createScene()
 
+const check = ()=>{
+  num === 0 ?
+    canvas.classList.add('hide')
+    : imgBox.classList.remove('hide')
+}
+check()
+
 const next = () => {
   console.log('num => ',num)
   //event.preventDefault()  
@@ -62,7 +69,7 @@ const next = () => {
   num > 0 ?
     canvas.classList.remove('hide')
       : imgBox.classList.add('hide')
-      
+
   scene = createScene()
 }
 
