@@ -27,8 +27,8 @@ p.subtitle{
   width: 150px;
 }
 
-.view{
-  display: true;
+.image-box{
+  margin-bottom: .4rem;
 }
 
 .hide {
