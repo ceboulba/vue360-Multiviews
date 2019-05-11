@@ -85,7 +85,6 @@ const prev = () => {
 }
 
 engine.runRenderLoop(function () {
-  check()
   scene.render()
 })
 
