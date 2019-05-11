@@ -90,6 +90,5 @@ engine.runRenderLoop(function () {
 })
 
 window.addEventListener('resize', function () {
-  canvas.classList.remove('hide')
   engine.resize()
 })
