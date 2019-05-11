@@ -55,15 +55,14 @@ const check = () => {
   num === 0 ? (() => {
     canvas.classList.add('hide');
     imgBox.classList.remove('hide');
-    scene.render()
     })()
 
     : (() => {
       canvas.classList.remove('hide')
       imgBox.classList.add('hide')
-      scene.render()
     })()
-    //scene.render()
+    scene.render()
+    console.log('on check')
 }
 
 check()
