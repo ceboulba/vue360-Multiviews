@@ -54,13 +54,11 @@ const scene = createScene()
 const check = () => {
   num === 0 ? (() => {
     canvas.classList.add('hide');
-    canvas.classList.add('petit');
     imgBox.classList.remove('hide');
   })()
 
     : (() => {
       canvas.classList.remove('hide')
-      canvas.classList.remove('petit')
       imgBox.classList.add('hide')
     })()
   scene.render()
