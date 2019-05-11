@@ -62,6 +62,8 @@ const check = () => {
       imgBox.classList.add('hide')
     })()
     scene.render()
+      engine.resize()
+
     console.log('on check')
 }
 
