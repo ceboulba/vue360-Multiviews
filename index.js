@@ -3,9 +3,12 @@
 import './style.css'
 import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
+const visible = document.getElementById('axo')
+console.log(visible)
 var imgs = [
+  'https://res.cloudinary.com/archipicture/image/upload/v1557559393/sham_milan/gradient.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557511607/sham_milan/sham_milan_vue_01.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557511871/sham_milan/sham_milan_vue_02.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557556968/sham_milan/sham_milan_vue_02.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557512775/sham_milan/sham_milan_vue_03.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557514455/sham_milan/sham_milan_vue_04.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557519549/sham_milan/sham_milan_vue_05.jpg'
@@ -51,11 +54,12 @@ const scene = createScene()
 
 const next = () => {
   //event.preventDefault()
+  if(num === 0){
+    canvas.classList.add('hide')
+  }
   num < imgs.length - 1 ?
     num++
     : num = 0
-  console.log('coucou next')
-  console.log(num)
   scene = createScene()
 }
 

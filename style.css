@@ -26,3 +26,11 @@ p.subtitle{
   padding: .5rem;
   width: 150px;
 }
+
+.view{
+  display: true;
+}
+
+.hide {
+  display: none;
+}
