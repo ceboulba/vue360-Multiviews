@@ -62,6 +62,7 @@ const check = () => {
       canvas.classList.remove('hide')
       imgBox.classList.add('hide')
     })()
+    scene.render()
 }
 check()
 
