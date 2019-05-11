@@ -60,6 +60,7 @@ const check = () => {
 
     : (() => {
       canvas.classList.remove('hide')
+      canvas.classList.remove('petit')
       imgBox.classList.add('hide')
     })()
   scene.render()
