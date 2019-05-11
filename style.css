@@ -34,6 +34,8 @@ p.subtitle{
 }
 
 .hide {
-  display: none;
+  /* display: none; */
   visibility: hidden;
+  width: 0;
+  height: 0;
 }
