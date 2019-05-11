@@ -55,15 +55,15 @@ const check = () => {
   num === 0 ? (() => {
     canvas.classList.add('hide');
     imgBox.classList.remove('hide');
-    })()
+  })()
 
     : (() => {
       canvas.classList.remove('hide')
       imgBox.classList.add('hide')
     })()
-    scene.render()
+  scene.render()
 
-    console.log('on check')
+  console.log('on check')
 }
 
 check()
@@ -83,6 +83,12 @@ const prev = () => {
     : num--
   scene = createScene()
   check()
+}
+
+const essais = () => {
+  const ctx = canvas.getContext('2d')
+  const axo = new Image()
+  axo.src = ""
 }
 
 engine.runRenderLoop(function () {
