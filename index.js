@@ -72,7 +72,7 @@ const next = () => {
   num < imgs.length - 1 ?
     num++
     : num = 0
-  scene = createScene()
+  //scene = createScene()
   check()
 }
 
@@ -81,14 +81,8 @@ const prev = () => {
   num === 0 ?
     num = imgs.length - 1
     : num--
-  scene = createScene()
+  //scene = createScene()
   check()
-}
-
-const essais = () => {
-  const ctx = canvas.getContext('2d')
-  const axo = new Image()
-  axo.src = ""
 }
 
 engine.runRenderLoop(function () {
