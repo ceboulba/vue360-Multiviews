@@ -87,6 +87,8 @@ engine.runRenderLoop(function () {
   scene.render()
 })
 
+if(num!==0){
 window.addEventListener('resize', function () {
   engine.resize()  
 })
+}
