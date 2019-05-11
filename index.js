@@ -14,8 +14,8 @@ var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557519549/sham_milan/sham_milan_vue_05.jpg'
 ]
 let num = 0
-const btnPrev = document.getElementById('btnPrev').addEventListener('click',()=> prev())
-const btnNext = document.getElementById('btnNext').addEventListener('click',()=>next())
+const btnPrev = document.getElementById('btnPrev').addEventListener('click', () => prev())
+const btnNext = document.getElementById('btnNext').addEventListener('click', () => next())
 
 var engine = new BABYLON.Engine(canvas, true)
 
@@ -52,22 +52,25 @@ var createScene = function () {
 
 const scene = createScene()
 
-const check = ()=>{
-  num === 0 ?()=>{
+const check = () => {
+  num === 0 ? () => {
     canvas.classList.add('hide')
     imgBox.classList.remove('hide')
-  }    
-    : null
+  }
+    : () => {
+      canvas.classList.remove('hide')
+      imgBox.classList.add('hide')
+    }
 }
 check()
 
 const next = () => {
-  console.log('num => ',num)
+  console.log('num => ', num)
   //event.preventDefault()  
   num < imgs.length - 1 ?
     num++
     : num = 0
-  console.log('num => ',num)
+  console.log('num => ', num)
 
   scene = createScene()
   check()
@@ -80,7 +83,7 @@ const prev = () => {
     : num--
   console.log('coucou previous')
   console.log(num)
-    scene = createScene()
+  scene = createScene()
 }
 
 engine.runRenderLoop(function () {
