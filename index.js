@@ -68,6 +68,7 @@ const next = () => {
   console.log('num => ',num)
 
   scene = createScene()
+  check()
 }
 
 const prev = () => {
