@@ -62,7 +62,6 @@ const check = () => {
       imgBox.classList.add('hide')
     })()
   scene.render()
-
   console.log('on check')
 }
 
