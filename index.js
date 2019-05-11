@@ -89,4 +89,5 @@ engine.runRenderLoop(function () {
 
 window.addEventListener('resize', function () {
   engine.resize()
+  check()
 })
