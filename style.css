@@ -30,6 +30,11 @@ p.subtitle{
   height:128px;
 }
 
+.logo-obvious{
+  width: 200px;
+  height: 50px;
+}
+
 .image-box{
   margin-bottom: .4rem;
   width: 100%;
