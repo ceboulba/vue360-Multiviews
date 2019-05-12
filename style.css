@@ -37,3 +37,7 @@ p.subtitle{
 .hide {
   display: none;
 }
+
+.columns.is-vcentered{
+  border:1ps solid red;
+}
