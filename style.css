@@ -38,6 +38,6 @@ p.subtitle{
   display: none;
 }
 
-.columns .is-vcentered{
-  border:1ps solid red;
+.columns.is-vcentered{
+  border:1px solid red;
 }
