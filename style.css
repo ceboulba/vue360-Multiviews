@@ -16,7 +16,8 @@
 
 .place-name{
   border:1px solid red;
-  position: top;
+  position: relative;
+  bottom:0;
 }
 
 .is-vcentered{
