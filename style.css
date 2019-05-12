@@ -13,10 +13,13 @@
 .colmun{
   padding: 0;
 }
-
+.head{
+  position:relative;
+}
 .place-name{
   border:1px solid red;
-  position: relative;
+  position: absolute;
+  left:50%;
   bottom:0;
 }
 
