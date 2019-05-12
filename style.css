@@ -18,10 +18,10 @@ p.subtitle{
   align-items: flex-end;
 }
 
-.logo-sham{
+/* .logo-sham{
   width: 256px;
   height:128px;
-}
+} */
 
 .logo-obvious{
   width: 100px;
@@ -39,5 +39,6 @@ p.subtitle{
 }
 
 .columns.is-vcentered{
-  border:1px solid red;
+  /* border:1px solid red; */
+  align-items: baseline;
 }
