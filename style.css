@@ -13,21 +13,12 @@
 .colmun{
   padding: 0;
 }
-.head{
-  position:relative;
-}
-.place-name{
-  border:1px solid red;
-  position: absolute;
-  left:50%;
-  bottom:0;
-}
 
-.is-vcentered{
+/* .is-vcentered{
 display: flex;
 vertical-align: middle;
 justify-content: space-between;
-}
+} */
 
 p.subtitle{
   display: flex ;
