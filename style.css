@@ -14,7 +14,9 @@
   padding: 0;
 }
 
-place-name{
+.place-name{
+  align-items: stretch;
+  border:1px solid red;
   vertical-align: top;
 }
 
