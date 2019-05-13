@@ -8,7 +8,7 @@ var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557733457/sham_milan/sham_milan_vue_01.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557733458/sham_milan/sham_milan_vue_02.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557704835/sham_milan/sham_milan_vue_03.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557733450/sham_milan/sham_milan_vue_04.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557733876/sham_milan/sham_milan_vue_04.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557705570/sham_milan/sham_milan_vue_05.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557733456/sham_milan/sham_milan_vue_06.jpg',
 ]
