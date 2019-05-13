@@ -6,7 +6,7 @@ const imgBox = document.getElementById('img-box')
 
 var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557734725/sham_milan/sham_milan_vue_axo.jpg',
-  'https://res.cloudinary.com/archipicture/image/upload/v1557757757/sham_milan/sham_milan_vue_01.jpg',
+  'https://res.cloudinary.com/archipicture/image/upload/v1557759018/sham_milan/sham_milan_vue_01.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557733458/sham_milan/sham_milan_vue_02.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557734291/sham_milan/sham_milan_vue_03.jpg',
   'https://res.cloudinary.com/archipicture/image/upload/v1557733876/sham_milan/sham_milan_vue_04.jpg',
