@@ -4,20 +4,18 @@ import * as BABYLON from 'babylonjs'
 const canvas = document.getElementById('renderCanvas')
 const imgBox = document.getElementById('img-box')
 
-const image01 = new Image()
-const url = 'https://res.cloudinary.com/archipicture/sham_milan/sham_milan_vue_02.jpg'
-image01.src = url
-
 var imgs = [
   'https://res.cloudinary.com/archipicture/image/upload/v1557734725/sham_milan/sham_milan_vue_axo.jpg',
   'https://res.cloudinary.com/archipicture/sham_milan/sham_milan_vue_01.jpg',
-  image01,
+  'https://res.cloudinary.com/archipicture/sham_milan/sham_milan_vue_02.jpg',
   'https://res.cloudinary.com/archipicture/sham_milan/sham_milan_vue_03.jpg',
   'https://res.cloudinary.com/archipicture/sham_milan/sham_milan_vue_04.jpg',
   'https://res.cloudinary.com/archipicture/sham_milan/sham_milan_vue_05.jpg',
   'https://res.cloudinary.com/archipicture/sham_milan/sham_milan_vue_06.jpg',
 ]
+
 let num = 0
+
 const btnPrev = document.getElementById('btnPrev').addEventListener('click', () => prev())
 const btnNext = document.getElementById('btnNext').addEventListener('click', () => next())
 
